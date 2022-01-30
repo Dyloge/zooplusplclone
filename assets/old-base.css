@@ -1,13 +1,13 @@
 :root {
-  --primary: #e5e5e5;
-  --primary-2: #fca311;
-  --secondary: #14213d;
-  --secondary-2: #000000;
+  --primary: #ffffff;
+  --primary-2: #f1f3f5;
+  --secondary: #000000;
+  --secondary-2: #111;
   --selection: var(--cyan);
 
   --text-base: #000000;
-  --text-primary: #252525;
-  --text-secondary: #e5e5e5;
+  --text-primary: #000000;
+  --text-secondary: white;
 
   --hover: rgba(0, 0, 0, 0.075);
   --hover-1: rgba(0, 0, 0, 0.15);
@@ -18,13 +18,13 @@
   --purple: #f81ce5;
   --blue: #0070f3;
 
-  --pink: #14213d;
+  --pink: #ff0080;
   --pink-light: #ff379c;
 
   --magenta: #eb367f;
 
-  --violet: #fca311;
-  --violet-dark: #14213d;
+  --violet: #7928ca;
+  --violet-dark: #4c2889;
 
   --accent-0: #fff;
   --accent-1: #fafafa;
@@ -37,22 +37,23 @@
   --accent-8: #111111;
   --accent-9: #000;
 
-  --font-sans: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  --font-sans: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
+    'Helvetica', sans-serif;
 }
 
 [data-theme='dark'] {
   --primary: #000000;
-  --primary-2: #14213d;
-  --secondary: #fca311;
-  --secondary-2: #e5e5e5;
+  --primary-2: #111;
+  --secondary: #ffffff;
+  --secondary-2: #f1f3f5;
   --hover: rgba(255, 255, 255, 0.075);
   --hover-1: rgba(255, 255, 255, 0.15);
   --hover-2: rgba(255, 255, 255, 0.25);
   --selection: var(--purple);
 
-  --text-base: #e5e5e5;
-  --text-primary: #252525;
-  --text-secondary: #000000;
+  --text-base: white;
+  --text-primary: white;
+  --text-secondary: black;
 
   --accent-9: #fff;
   --accent-8: #fafafa;

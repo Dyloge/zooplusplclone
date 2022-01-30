@@ -4,7 +4,7 @@
 }
 
 .nav {
-  @apply relative flex flex-row justify-between py-4 md:py-4;
+  @apply relative flex flex-row justify-between py-10 md:py-4 bg-secondary-2;
 }
 
 .navMenu {
@@ -14,15 +14,19 @@
 .link {
   @apply inline-flex items-center leading-6
   transition ease-in-out duration-75 cursor-pointer
-  text-accent-5;
+  text-accent-3;
 }
 
 .link:hover {
-  @apply text-accent-9;
+  @apply text-accent-1;
 }
 
 .link:focus {
   @apply outline-none text-accent-8;
+}
+.Image {
+  filter: invert(99%) sepia(0%) saturate(1179%) hue-rotate(337deg)
+    brightness(113%) contrast(80%);
 }
 
 .logo {
